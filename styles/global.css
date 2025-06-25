@@ -45,8 +45,6 @@
 }
 
 body {
-  overflow: hidden;
-
   font: var(--body-md);
   color: var(--text-body);
   background-color: #29292E;
