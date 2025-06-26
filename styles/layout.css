@@ -19,11 +19,14 @@ aside, main {
 
   flex-direction: column;
   max-height: fit-content;
+
   padding: 1.25rem;
 }
 aside {
   border-top-left-radius: 1.25rem;
   border-bottom-left-radius: 1.25rem;
+
+    padding-right: 0;
 
   & .aside-container { 
     max-width: 25rem;
@@ -59,11 +62,23 @@ main {
   border-top-right-radius: 1.25rem;
   border-bottom-right-radius: 1.25rem;
   border-bottom-left-radius: 1.25rem;
+  
 
   overflow: hidden;
   scrollbar-width: none;
 
-  & .main-container { }
+  & .main-container { 
+    padding-inline: 130px;
+    padding-block: 80px;
+    background-color: var(--shape-body);
+    border-radius: 0.75rem;
+  }
+
+  & h1 {
+    font: var(--heading-md);
+    color: var(--text-heading);
+    margin-bottom: 2.5rem;
+  }
 
   &:hover,
   &:focus-within {

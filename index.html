@@ -26,55 +26,67 @@
     </aside>
     <main>
       <div class="main-container">     
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
-        <p>Formulário</p>
+        <h1>Crie o seu convite</h1>
+
+        <form method="post" enctype="multipart/form-data">
+          <fieldset class="event-info">
+            <legend>
+              <img src="assets/icons/calendar.svg" alt="Ícone de calendário" aria-hidden="true">
+              Sobre o evento
+            </legend>
+          </fieldset>
+
+          <fieldset class="event-customization">
+            <legend>
+              <img src="assets/icons/paintbrush-vertical.svg" alt="Ícone de pincel" aria-hidden="true">
+              Personalização
+            </legend>
+          </fieldset>
+
+          <fieldset class="event-contact">
+            <legend>
+              <img src="assets/icons/contact.svg" alt="Ícone de contato" aria-hidden="true">
+              Dados para contato
+            </legend>
+          </fieldset>
+
+          <div class="terms-wrapper input-wrapper checkbox-wrapper">
+            <div class="checkbox-image"></div>
+            <input 
+              type="checkbox" 
+              name="terms" 
+              id="terms"
+            >
+            <label for="terms">Li e concordo com os <strong>Termos e Condições</strong> e com a <strong>Política de Privacidade</strong>.</label>
+          </div>
+
+          <div class="terms-wrapper input-wrapper checkbox-wrapper">
+            <div class="checkbox-image"></div>
+            <input 
+              type="checkbox" 
+              name="email" 
+              id="email"
+            >
+            <label for="email">Aceito receber atualizações e promoções por e-mail.</label>
+          </div>
+
+          <div class="terms-wrapper input-wrapper checkbox-wrapper">
+            <div class="checkbox-image"></div>
+            <input 
+              type="checkbox" 
+              name="sms" 
+              id="sms"
+            >
+            <label for="sms">Aceito receber atualizações e promoções por SMS.</label>
+          </div>
+  
+          <div class="actions-wrapper">
+            <button class="btn-primary" type="submit">
+              <img src="assets/icons/ticket.svg" alt="Ícone de ingresso">
+              <span>Gerar Convite</span>
+            </button>
+          </div>
+        </form>
       </div>
     </main>
   </div>
