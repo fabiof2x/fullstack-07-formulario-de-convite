@@ -24,6 +24,7 @@
         </div>
       </div>
     </aside>
+    
     <main>
       <div class="main-container">     
         <h1>Crie o seu convite</h1>
@@ -383,6 +384,44 @@
                   <label for="other">Outros</label>
                 </div>
               </div>
+
+              <div class="flex gap-16">
+                <div class="input-wrapper flex-1">
+                  <label for="toggle">Estilo</label>
+                  <div class="toggle-checkbox-wrapper">
+                    <input
+                      class="toggle-checkbox" 
+                      type="checkbox" 
+                      id="toggle"
+                      name="toggle"
+                     >
+                    <label class="slider" for="toggle">
+                      <span class="toggle-switch opt1">Escuro</span>
+                      <span class="toggle-switch opt2">Claro</span>
+                    </label>
+                  </div>
+                </div>
+      
+                <div class="droparea-wrapper flex-2">
+                  <label for="bg-cover-file">Foto de Capa</label>
+              
+                  <div class="dropzone">
+                    <input 
+                      type="file"
+                      id="bg-cover-file"
+                      name="bg-cover-file"
+                    >
+                    <div class="dropzone-button">
+                      <img src="assets/icons/upload.svg" alt="seta de upload">
+                      <span>Selecionar</span>
+                    </div>
+      
+                    <p>Nenhum arquivo selecionado</p>
+                  </div>
+              
+                </div>
+              </div> 
+
             </div> 
 
           </fieldset>
@@ -392,7 +431,47 @@
               <img src="assets/icons/contact.svg" alt="Ícone de contato" aria-hidden="true">
               Dados para contato
             </legend>
+
+            <div class="input-wrapper">
+               <label for="name">Nome</label>
+               <input 
+                 type="text"
+                 id="name"
+                 name="name"
+                 placeholder="Nome completo"
+                 required
+               >
+               <div class="error">
+                 <img src="assets/icons/circle-alert.svg" alt="Ícone de alerta vermelho">
+                 <span>Campo Obrigatório</span>
+               </div>
+            </div>
+
+            <div class="flex gap-16">
+              <div class="input-wrapper flex-1">
+                <label for="email">E-mail</label>
+                <input 
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="exemplo@email.com"
+                >
+              </div>
+    
+              <div class="input-wrapper flex-1">
+                  <label for="phone">Telefone</label>
+                  <input 
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="(99) 99999-9999"
+                  >
+              </div>
+            </div>
+  
           </fieldset>
+
+          <hr>
 
           <div class="terms-wrapper input-wrapper checkbox-wrapper">
             <div class="checkbox-image"></div>

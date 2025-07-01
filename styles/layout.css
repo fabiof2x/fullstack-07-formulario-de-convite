@@ -98,3 +98,12 @@ main {
   &::-webkit-scrollbar-button { display: none; } 
 }
 
+hr {
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+
+  height: 1px;
+  background-color: var(--input-stroke);
+  border: none;
+}
+
