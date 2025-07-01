@@ -68,8 +68,8 @@ main {
   scrollbar-width: none;
 
   & .main-container { 
-    padding-inline: 130px;
-    padding-block: 80px;
+    padding-inline: 8.125rem;
+    padding-block: 5rem;
     background-color: var(--shape-body);
     border-radius: 0.75rem;
   }
