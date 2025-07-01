@@ -66,3 +66,47 @@ img {
 .gap-16 {
   gap: 1rem;
 }
+
+.color-brand-light {
+  background-color: var(--brand-light);
+}
+
+.color-navy {
+  background-color: var(--accent-navy);
+}
+
+.color-purple {
+  background-color: var(--accent-purple);
+}
+
+.color-fuschia {
+  background-color: var(--accent-fuschia);
+}
+
+.color-pink {
+  background-color: var(--accent-pink);
+}
+
+.color-red {
+  background-color: var(--feedback-danger);
+}
+
+.color-orange {
+  background-color: var(--accent-orange);
+}
+
+.color-yellow {
+  background-color: var(--accent-yellow);
+}
+
+.color-lime {
+  background-color: var(--accent-lime);
+}
+
+.color-green {
+  background-color: var(--accent-green);
+}
+
+.color-cyan {
+  background-color: var(--accent-cyan);
+}
